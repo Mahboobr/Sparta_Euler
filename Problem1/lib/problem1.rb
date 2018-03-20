@@ -3,6 +3,8 @@
 # part 3 ---- get sum of said multiples
 
 class Numbers
+  attr_accessor :range_of_numbers
+
   def initialize
     @range_of_numbers = []
   end
@@ -26,5 +28,5 @@ class Numbers
     @range_of_numbers.sum
   end
 end
-x = Numbers.new
-x.range(0,999)
+# x = Numbers.new
+# x.range(0,999)
