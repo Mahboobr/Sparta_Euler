@@ -14,8 +14,7 @@ class Numbers
       multiples(i)
     end
     @range_of_numbers
-    # @range_of_numbers
-    puts total
+    total
   end
 
   def multiples(i)
